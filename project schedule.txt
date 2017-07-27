@@ -1,0 +1,11 @@
+Project Schedule:
+
+		Day 1(09/21): Understand few basic concepts of JSON and few concepts of android's Async(performing the necessary operation in background) feature .
+		
+		Day 2(09/22): Implement Async module to retrieve images for the contact list from the given url. 
+		
+		Day 3(09/23): Redesign the entire user interface and try to fit in the fade-in feature as well.
+	
+		Day 4(09/24): Revisit the concepts of HttpClient "post" method and implement it. 
+		
+		day 5(09/25): Include "Translate Animation" and "Rotate Animation" features. Also, test the app for possible errors using various test cases. 

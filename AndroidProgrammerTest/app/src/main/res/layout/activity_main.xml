@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_coding_tasks"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Chat"
+
+        android:id="@+id/button"
+        android:src="@drawable/btn_main_chat"
+        android:onClick="onChatButtonClicked"
+        android:scaleType="fitXY"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="31dp" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/animation_button"
+        android:id="@+id/button3"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_main_animation"
+        android:onClick="onAnimationTestButtonClicked"
+        android:background="@drawable/button_selector"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODING TASKS"
+        android:textColor="#ffff"
+        android:id="@+id/text_view"
+        android:textSize="11pt"
+        android:layout_marginBottom="66dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:id="@+id/button2"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_main_login"
+        android:background="@drawable/button_selector"
+        android:onClick="onLoginButtonClicked"
+        android:layout_marginTop="239dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+    android:layout_marginBottom="42dp"/>
+</RelativeLayout>
